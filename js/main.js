@@ -1,3 +1,6 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var StarsFrame = React.createClass({
   render: function () {
     var numberOfStars = this.props.numberOfStars,
@@ -5,7 +8,7 @@ var StarsFrame = React.createClass({
         
     for (var i = 0; i < numberOfStars; i++) {
       stars.push(
-        <span className="glyphicon glyphicon-star"></span>
+        <span className='glyphicon glyphicon-star'></span>
       );
     }
     return (

@@ -1,0 +1,16 @@
+{
+  "name": "react-game-1",
+  "version": "1.0.0",
+  "description": "Game made using reactJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t [ babelify --presets [ react ] ] js/main.js -o public/bundle.js"
+  },
+  "author": "John Machahuay",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  }
+}
